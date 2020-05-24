@@ -31,6 +31,7 @@ function EditItemForm({editItem,id, priority, description, crossedOff, toggleIsE
   }
 
   // TODO : Add a limit for the input. (eg. task length is 100 characters)
+  // TODO : Add a FormControl component
 
   return (
       <form onSubmit={handleSubmit} style={styles.form}>
